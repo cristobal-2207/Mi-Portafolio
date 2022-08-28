@@ -95,6 +95,33 @@ a.nav-link.active{
   color: #000000;
   padding-top: 3rem;
 }
+/* Sobre Mi */
+.sobre-mi{
+  display: flex;
+  align-items: center;
+  height: 30rem;
+}
+.align-content{
+  display: flex;
+  align-items: center;
+}
+.navegando{
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: 0.221rem;
+  text-align: left;
+  color: #000000;
+}
+.bg-avatar-perfil{
+  background-image: url(/assets/img/recurso-3.jpeg);
+}
+.btn-position-sobre-mi{
+  padding-top: 3rem;
+}
 /* Footer */
 footer{
   background-color: #000000;
