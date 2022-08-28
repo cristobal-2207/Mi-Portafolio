@@ -11,8 +11,77 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
-/* Barra de Navegación */
-
+/* Header */
+.bg-img{
+  background-image:url("/assets/img/imgMobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a.navbar-brand{
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  padding-left: 3.3rem;
+}
+a.nav-link.active{
+  font-family: Poppins;
+  font-size: 2rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0f0d4e;
+}
+.avatar{
+  height: 15.6rem;
+  width: 13.8rem;
+  margin-top: 3.9rem;
+}
+.name{
+  font-family: Montserrat;
+  font-size: 9rem;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.52;
+  letter-spacing: normal;
+  text-align: center;
+  color: #242d35;
+  padding-top: 3rem;
+}
+.lastName{
+  font-family: Montserrat;
+  font-size: 4.5rem;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  text-align: center;
+  color: #242d35;
+  padding-top: 1.8rem;
+}
+.desarrollo-ideas{
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: center;
+  color: #242d35;
+  padding-top: 1.6rem;
+  letter-spacing: 0.1rem
+}
+.position-btn{
+  padding-top: 2rem;
+}
+.btn-radio{
+  border-radius: 3rem;
+  width: 10rem;
+}
 /* Footer */
 footer{
   background-color: #000000;
@@ -23,6 +92,10 @@ footer{
   font-family: Montserrat;
   font-size: 8.5rem;
   font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.96;
+  letter-spacing: normal;
   text-align: center;
   color: #ffffff;
   padding-top: 13.5rem;
@@ -31,6 +104,10 @@ footer{
   font-family: Poppins;
   font-size: 3.4rem;
   font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.65;
+  letter-spacing: 0.221rem;
   text-align: center;
   color: #ffffff;
   padding-top: 8.6rem;
@@ -39,6 +116,11 @@ footer{
   flex-grow: 0;
   font-family: Poppins;
   font-size: 2.8rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
   text-align: center;
   color: #ffffff;
   padding-top: 0.8rem;
