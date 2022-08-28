@@ -1,4 +1,45 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Estilos Generales */
+html{
+  font-size: 62.5%;
+}
 body{
   font-family: 'Montserrat', sans-serif;
   font-family: 'Poppins', sans-serif;
+}
+/* Barra de Navegación */
+
+/* Footer */
+footer{
+  background-color: #000000;
+  color: #ffffff;
+  height: 75.2rem;
+}
+.tienes-alguna-idea{
+  font-family: Montserrat;
+  font-size: 8.5rem;
+  font-weight: 800;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 13.5rem;
+}
+.construyamosla-juntos{
+  font-family: Poppins;
+  font-size: 3.4rem;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 8.6rem;
+}
+.email{
+  flex-grow: 0;
+  font-family: Poppins;
+  font-size: 2.8rem;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 0.8rem;
 }
