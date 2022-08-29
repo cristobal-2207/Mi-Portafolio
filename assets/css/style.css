@@ -83,6 +83,9 @@ a.nav-link.active{
   width: 10rem;
 }
 /* Último Proyectos */
+.alto-ultimos-proyectos{
+  height: 13rem;
+}
 .ultimos-proyectos{
   font-family: Montserrat;
   font-size: 3.4rem;
@@ -94,6 +97,9 @@ a.nav-link.active{
   text-align: center;
   color: #000000;
   padding-top: 3rem;
+}
+.margin-card{
+  margin-bottom: 3rem;
 }
 /* Sobre Mi */
 .sobre-mi{
